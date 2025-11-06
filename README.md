@@ -1,6 +1,6 @@
-#this is an expense tracker
+# Expense Tracker
 
- built with react and tailwindcss
- Clean ui and working as expected
+Built with **React** and **Tailwind CSS**  
 
-built to improve in react development
+✅ Clean UI and works as expected  
+🚀 Built to improve my React development skills
