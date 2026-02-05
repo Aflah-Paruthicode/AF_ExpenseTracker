@@ -1,17 +1,28 @@
-
-
 import React from "react";
 
-function Footer () {
+const Footer = () => {
+  return (
+    <footer className="mt-20 pb-10 px-6 font-poppins">
+      <div className="max-w-md mx-auto">
+        <div className="w-full h-[1px] bg-gray-100 mb-8" />
+        
+        <div className="text-center space-y-4">
+          <div className="flex justify-center gap-4 mb-4" />
 
-    return (
-        <footer>
-            <div>
-            <h1 className="fs-5"> Thank you for choosing AF-expence tracker</h1>
-            <p>have a nice day</p>
-            </div>
-        </footer>
-    )
-}
+          <h3 className="text-sm font-bold text-gray-800 tracking-tight">
+            Thank you for choosing <span className="text-emerald-600">AF Tracker</span>
+          </h3>
+          
+          <p className="text-[11px] text-gray-400 font-medium leading-relaxed">
+            Helping you master your finances, one transaction at a time. <br />
+            Built with ❤️ by Aflah.
+          </p>
 
-export default Footer
+          
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

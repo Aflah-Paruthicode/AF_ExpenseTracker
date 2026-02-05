@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
   font-family: "Mulish", serif;
@@ -8,7 +8,6 @@
 }
 
 nav img {
-
   width: 90px;
   height: auto;
   margin: 5px 6px;
@@ -17,7 +16,6 @@ nav img {
 }
 
 nav h1 {
-
   position: absolute;
   left: 420px;
   font-size: 25px;
@@ -26,7 +24,6 @@ nav h1 {
 }
 
 .form-root {
-
   height: 30vh;
   display: flex;
   align-items: center;
@@ -35,24 +32,20 @@ nav h1 {
 }
 
 .form-root .icons {
-
   width: 42px;
   height: 38px;
 }
 
 .form-root .inp {
-
   width: 215px;
   height: 38px;
 }
 
 .form-root button {
-
   width: 100%;
 }
 
 .totelExpense {
-
   height: 20vh;
   display: flex;
   align-items: center;
@@ -61,7 +54,6 @@ nav h1 {
 }
 
 .totelExpense h1 {
-
   margin-top: 170px;
   background-color: #00000073;
   color: white;
@@ -71,7 +63,6 @@ nav h1 {
 }
 
 .list-Expensese {
-
   height: 31vh;
   display: flex;
   align-items: center;
@@ -80,7 +71,6 @@ nav h1 {
 }
 
 footer {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,9 +78,7 @@ footer {
   color: #535353;
 }
 
-
 footer h1 {
-
   font-size: 26px;
   margin: 34px 34px 0;
   height: 100%;
